@@ -5,8 +5,8 @@ radio.onReceivedNumber(function (receivedNumber) {
     }
 })
 input.onButtonPressed(Button.A, function () {
-    recieving = 1
     radio.sendNumber(4)
+    recieving = 1
 })
 basic.forever(function () {
     basic.showNumber(0)
